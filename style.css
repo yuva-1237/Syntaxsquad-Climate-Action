@@ -21,6 +21,20 @@
         backdrop-filter: blur(8px);
       }
 
+      .logo-img {
+        width: 200px;
+        height: auto;
+        display: block;
+        margin: 30px auto 10px;
+        z-index: 4;
+        position: relative;
+        transition: transform 0.3s ease-in-out; /* Add transition for smooth effect */
+        }
+
+     .logo-img:hover {
+        transform: scale(1.1); /* Scale up the image on hover */
+        }
+
       .card {
         background: white;
         border-radius: 30px;
